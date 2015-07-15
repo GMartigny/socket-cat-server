@@ -3,7 +3,7 @@ var http = require("http");
 var port = process.env.PORT || 5000;
 
 var httpServer = http.createServer(function(request, response){
-    response.end("<script>location.replace('http://gmartigny.github.com/dev/socket-cats');</script>");
+    response.end("<script>location.replace('http://gmartigny.github.com/socket-cats');</script>");
 });
 httpServer.listen(port);
 
